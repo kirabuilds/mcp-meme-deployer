@@ -1,4 +1,4 @@
-# Free Solana Token Agent for Claude Desktop
+# Deploy Instantly Tradable Tokens on Solana with Claude For Free
 
 A Model Context Protocol (MCP) server that allows Claude Desktop to deploy **instantly tradable tokens on Solana at zero cost** with just a simple conversation.
 
