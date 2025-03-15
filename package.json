@@ -1,0 +1,38 @@
+{
+    "name": "solana-token-agent",
+    "version": "1.0.0",
+    "description": "MCP server with token deployment capabilities",
+    "main": "build/index.js",
+    "type": "module",
+    "bin": {
+      "solana-token-agent": "./build/index.js"
+    },
+    "scripts": {
+      "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+      "start": "node build/index.js",
+      "dev": "tsc && node build/index.js"
+    },
+    "files": [
+      "build"
+    ],
+    "keywords": [
+      "solana",
+      "mcp",
+      "token"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@modelcontextprotocol/sdk": "^1.5.0",
+      "axios": "^1.8.3",
+      "dotenv": "^16.4.7",
+      "nft.storage": "^7.1.1",
+      "solana-agent-kit": "1.4.8",
+      "zod": "^3.24.2"
+    },
+    "devDependencies": {
+      "@types/node": "^22.13.4",
+      "ts-node": "^10.9.2",
+      "typescript": "^5.7.3"
+    }
+  }
