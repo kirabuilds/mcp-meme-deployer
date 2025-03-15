@@ -1,15 +1,16 @@
-# Solana Token Agent for Claude Desktop
+# Free Solana Token Agent for Claude Desktop
 
-A Model Context Protocol (MCP) server that allows Claude Desktop to deploy tokens on Solana with just a simple conversation.
+A Model Context Protocol (MCP) server that allows Claude Desktop to deploy **instantly tradable tokens on Solana at zero cost** with just a simple conversation.
 
 ## Features
 
 With this agent, Claude can:
-- Deploy custom tokens on Solana
-- Create a single-sided LP pool on Orca
-- Seed the pool automatically
-- Enable trading instantly
-- All for free, with no gas fees for the user
+- **FREE TOKEN DEPLOYMENT** - No gas fees or costs for the user
+- **INSTANT TRADING** - Tokens are immediately tradable after creation
+- Deploy custom tokens on Solana with custom names and images
+- Create a single-sided LP pool on Orca automatically
+- Seed the pool for immediate liquidity
+- All with a simple conversation through Claude
 
 ## Installation
 
@@ -53,19 +54,19 @@ Replace the placeholder values with your actual credentials.
 
 ## Usage
 
-Once installed and configured, you can interact with Claude Desktop to deploy tokens:
+Launch your own token for free in seconds! Once installed and configured, you can interact with Claude Desktop to deploy instantly tradable tokens:
 
 1. Simply ask Claude to deploy a token with a name and symbol
 2. Provide a link to an image for the token
 3. Example prompt: "Deploy a token called 'Awesome Token' with the symbol 'AWSM' using this image: https://example.com/image.png"
 
-Claude will handle the entire process:
+Claude will handle the entire process **at no cost**:
 - Token deployment on Solana
 - LP pool creation on Orca
 - Pool seeding
-- Trading enablement
+- **Instant trading enablement**
 
-No technical knowledge required - just have a conversation with Claude!
+No technical knowledge required - just have a conversation with Claude and get a fully tradable token for free!
 
 ## Requirements
 
