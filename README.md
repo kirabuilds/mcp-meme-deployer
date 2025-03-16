@@ -73,7 +73,6 @@ No technical knowledge required - just have a conversation with Claude and get a
 - Node.js 18+
 - pnpm
 - Claude Desktop with MCP server capabilities
-- Solana wallet with some SOL for transactions
 
 ## License
 
